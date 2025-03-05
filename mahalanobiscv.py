@@ -14,8 +14,8 @@ hsv_mean_green = np.array([60, 150, 150], dtype=np.float32)
 covariance = np.array([[50, 0, 0], [0, 60, 0], [0, 0, 60]], dtype=np.float32)
 inverse_cov = np.linalg.inv(covariance)
 
-threshold_red = 3.0
-threshold_green = 3.0
+threshold_red = 2.9
+threshold_green = 2.80
 
 cap = cv2.VideoCapture(0)
 
