@@ -52,8 +52,8 @@ while True:
             cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
             cv2.putText(frame, 'GREEN', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
     
-    cv2.imshow('Red Mask', mask_red)
-    cv2.imshow('Green Mask', mask_green)
+    #cv2.imshow('Red Mask', mask_red)
+    #cv2.imshow('Green Mask', mask_green)
     cv2.imshow('Frame with Detections', frame)
     
     if cv2.waitKey(1) & 0xFF == ord('q'):
